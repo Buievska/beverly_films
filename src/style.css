@@ -9,22 +9,17 @@ body {
   color: #fff;
   font-weight: 400;
   font-size: 16px;
-
-  /* Фон */
   background-color: #0d2526;
   background-image: url("/public/bg-mobile-2.JPG");
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-
   min-height: 100vh;
-
   padding-top: 100px;
 }
 
@@ -37,11 +32,7 @@ body {
 @media (min-width: 1440px) {
   body {
     background-image: url("/public/bg-desktop-2.jpg");
-
-    /* ВАЖЛИВО: Фіксуємо висоту рівно в 1 екран */
     height: 100vh;
-
-    /* ВАЖЛИВО: Забороняємо скрол */
     overflow: hidden;
   }
 }
