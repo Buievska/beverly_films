@@ -41,29 +41,9 @@
     <main>
       <section class="main">
         <div>
-          <picture class="main-container-img" id="main-picture">
-            <source
-              media="(min-width: 1440px)"
-              srcset="./public/main-logo-d.png"
-              width="975"
-              height="647"
-            />
-
-            <source
-              media="(min-width: 768px)"
-              srcset="./public/main-logo-t.png"
-              width="766"
-              height="622"
-            />
-
-            <img
-              class="responsive-logo"
-              src="./public/main-logo-m.png"
-              alt="Main photo"
-              width="429"
-              height="367"
-            />
-          </picture>
+          <svg class="responsive-logo" width="975" height="647">
+            <use href="/symbol-defs.svg#icon-logo"></use>
+          </svg>
           <h1 class="main-title">WELCOME TO BEVERLY FILMS!</h1>
           <h2 class="title">SITE UNDER DEVELOPMENT!</h2>
         </div>

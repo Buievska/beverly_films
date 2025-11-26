@@ -120,25 +120,26 @@ header {
 
 .responsive-logo {
   display: block;
-  max-width: 429px;
+  margin: 0 auto 20px auto;
+
+  width: 100%;
   height: auto;
-  margin: 0 auto;
+
+  max-width: 400px;
+  fill: rgba(255, 255, 255, 0.9);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
 }
 
 @media (min-width: 768px) {
   .responsive-logo {
-    max-width: 100%;
+    max-width: 500px;
   }
 }
 
 @media (min-width: 1440px) {
   .responsive-logo {
-    max-height: 40vh;
-    width: auto;
     max-width: 800px;
-  }
-  .header {
-    margin-bottom: 15px;
+    max-height: 35vh;
   }
 }
 
@@ -160,7 +161,7 @@ main {
   font-size: 64px;
   text-align: center;
   color: #fff;
-  text-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4), 0 10px 25px 0 rgba(0, 0, 0, 0.6);
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.4), 0 10px 25px rgba(0, 0, 0, 0.6);
   margin-bottom: 10px;
 }
 
@@ -171,7 +172,7 @@ main {
   letter-spacing: 0.03em;
   text-align: center;
   color: #fff;
-  text-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
 }
 
 @media (min-width: 768px) {
