@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beverly films</title>
+    <meta name="description" content="Welcome to Beverly Films!" />
+    <link rel="icon" href="./public/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <nav class="header-nav">
+          <a href="/" class="header-logo-link">
+            <img
+              class="header-logo"
+              src="./public/logo.svg"
+              alt="Beverly Films"
+              width="159"
+              height="83"
+            />
+          </a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="main">
+        <div>
+          <picture class="main-container-img" id="main-picture">
+            <source
+              media="(min-width: 1440px)"
+              srcset="./public/main-logo-d.png"
+              width="975"
+              height="647"
+            />
+
+            <source
+              media="(min-width: 768px)"
+              srcset="./public/main-logo-t.png"
+              width="766"
+              height="622"
+            />
+
+            <img
+              class="responsive-logo"
+              src="./public/main-logo-m.png"
+              alt="Main photo"
+              width="429"
+              height="367"
+            />
+          </picture>
+          <h1 class="main-title">WELCOME TO BEVERLY FILMS!</h1>
+          <h2 class="title">SITE UNDER DEVELOPMENT!</h2>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="sm-container-icon">
+        <ul class="footer-list-media">
+          <li class="footer-item-media">
+            <a href="https://www.facebook.com/BeverlyyFilms" target="_blank">
+              <svg class="menu-icon" width="27" height="27">
+                <use href="./public/symbol-defs.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-item-media">
+            <a
+              href="https://www.instagram.com/beverly.films?igsh=czl5MHhmOXVzMDF5"
+              target="_blank"
+            >
+              <svg class="menu-icon" width="24" height="24">
+                <use href="./public/symbol-defs.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-item-media">
+            <a
+              href="https://youtube.com/@mybeverlyfilms?si=dfIcPt5FzfkRzPPS"
+              target="_blank"
+            >
+              <svg class="menu-icon" width="35" height="30">
+                <use href="./public/symbol-defs.svg#icon-youtube"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-item-media">
+            <a
+              href="https://www.tiktok.com/@beverlyfilms?_r=1&_t=ZM-91izBKidnfH"
+              target="_blank"
+            >
+              <svg class="menu-icon" width="24" height="24">
+                <use href="./public/symbol-defs.svg#icon-tiktok"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <p class="text" id="copyright">© 2025 Beverly Films</p>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
